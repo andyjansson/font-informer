@@ -1,24 +1,24 @@
-# Font detective [![Build Status][ci-img]][ci]
+# font-informer [![Build Status][ci-img]][ci]
 
 Node.js font identifier
 
-[ci-img]:  https://travis-ci.org/andyjansson/font-detective.svg
-[ci]:      https://travis-ci.org/andyjansson/font-detective
+[ci-img]:  https://travis-ci.org/andyjansson/font-informer.svg
+[ci]:      https://travis-ci.org/andyjansson/font-informer
 
-![font detective](https://raw.github.com/andyjansson/font-detective/master/font-detective.gif)
+![font detective](https://raw.github.com/andyjansson/font-informer/master/font-detective.gif)
 
 ## Installation
 
 ```js
-npm install font-detective
+npm install font-informer
 ```
 
 ## Usage 
 
 ```js
-var detective = require('font-detective');
+var informer = require('font-informer');
 
-detective('font.ttf').then(function (result) {
+informer('font.ttf').then(function (result) {
 	console.log(result);
 });
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "font-detective",
+  "name": "font-informer",
   "version": "1.0.0",
   "description": "node.js library for identifying fonts",
   "main": "index.js",
@@ -8,13 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andyjansson/font-detective.git"
+    "url": "git+https://github.com/andyjansson/font-informer.git"
   },
   "keywords": [
     "font",
     "detection",
     "identify",
-    "detective",
     "eot",
     "ttf",
     "otf",
@@ -25,9 +24,9 @@
   "author": "Andy Jansson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andyjansson/font-detective/issues"
+    "url": "https://github.com/andyjansson/font-informer/issues"
   },
-  "homepage": "https://github.com/andyjansson/font-detective#readme",
+  "homepage": "https://github.com/andyjansson/font-informer#readme",
   "dependencies": {
     "eot-parser": "^1.0.0",
     "es6-promise": "^3.0.2",
