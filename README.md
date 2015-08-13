@@ -5,8 +5,6 @@ Node.js font identifier
 [ci-img]:  https://travis-ci.org/andyjansson/font-informer.svg
 [ci]:      https://travis-ci.org/andyjansson/font-informer
 
-![font detective](https://raw.github.com/andyjansson/font-informer/master/font-detective.gif)
-
 ## Installation
 
 ```js
