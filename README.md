@@ -26,7 +26,7 @@ detective('font.ttf').then(function (result) {
 ```json
 { 
 	"type": "ttf",
-	"name": "SourceSansPro-Regular",
+	"name": "Source Sans Pro - Regular",
 	"weight": 400,
 	"style": "oblique"
 }
