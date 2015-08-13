@@ -1,0 +1,43 @@
+{
+  "name": "font-detective",
+  "version": "1.0.0",
+  "description": "node.js library for identifying fonts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyjansson/font-detective.git"
+  },
+  "keywords": [
+    "font",
+    "detection",
+    "identify",
+    "detective",
+    "eot",
+    "ttf",
+    "otf",
+    "woff",
+    "woff2",
+    "svg"
+  ],
+  "author": "Andy Jansson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andyjansson/font-detective/issues"
+  },
+  "homepage": "https://github.com/andyjansson/font-detective#readme",
+  "dependencies": {
+    "eot-parser": "^1.0.0",
+    "es6-promise": "^3.0.2",
+    "opentype-parser": "^1.0.0",
+    "promise-any-ext": "^1.0.0",
+    "svg-font-parser": "^1.0.0",
+    "woff-parser": "^1.0.0",
+    "woff2-parser": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
