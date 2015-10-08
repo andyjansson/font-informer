@@ -1,6 +1,6 @@
 {
   "name": "font-informer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node.js library for identifying fonts",
   "main": "index.js",
   "scripts": {
