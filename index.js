@@ -5,12 +5,18 @@ var parsers = require('./lib/parsers.js');
 
 module.exports = function (file) {
 	return new Promise(function (resolve, reject) {
-		fs.readFile(file, function (err, contents) {
-			if (err) return reject();
-			
-			Promise.any(parsers(contents)).then(function(result) {
-				resolve(result);
-			}, reject);
-		});
+		// If we're passed a buffer, parse it.
+		if(Buffer.isBuffer(file)) {
+			resolve(file);
+		} else {
+			// Otherwise read the file.
+			fs.readFile(file, function(err, contents) {
+				if(err) return reject();
+
+				resolve(contents);
+			});
+		}
+	}).then(function(contents) {
+		return Promise.any(parsers(contents));
 	});
 };
